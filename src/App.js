@@ -9,7 +9,9 @@ import TVShows from "./pages/TVShows";
 import UserListedMovies from "./pages/UserListedMovies";
 
 export default function App() {
+ console.log(process.env.REACT_APP_DOMAIN)
   return (
+    
     <BrowserRouter>
       <Routes>
         <Route exact path="/login" element={<Login />} />
