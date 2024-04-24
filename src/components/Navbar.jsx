@@ -13,6 +13,7 @@ export default function Navbar({ isScrolled }) {
     { name: "TV Shows", link: "/tv" },
     { name: "Movies", link: "/movies" },
     { name: "My List", link: "/mylist" },
+    { name: "Subscription", link: "/subscription" },
   ];
 
   return (
